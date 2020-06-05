@@ -1,0 +1,65 @@
+
+
+/**
+ * Tabs
+ */
+.tabs {
+	display: flex;
+	flex-wrap: wrap; // make sure it wraps
+}
+.tabs label {
+	order: 1; // Put the labels first
+	display: block;
+	padding: 1rem 0.5rem 1rem 0.5rem;
+	margin-right: 0.2rem;
+    margin-bottom: 0.5rem;
+	cursor: pointer;
+  background: #ffeeee;
+  font-weight: bold;
+  transition: background ease 0.2s;
+}
+.tabs .tab {
+  order: 99; // Put the tabs last
+  flex-grow: 1;
+	width: 100%;
+	display: none;
+  padding: 1rem;
+  background: #fff;
+}
+.tabs input[type="radio"] {
+	display: none;
+}
+.tabs input[type="radio"]:checked + label {
+	background: #fff;
+}
+.tabs input[type="radio"]:checked + label + .tab {
+	display: block;
+}
+
+/** Table */
+.tg  {min-width:100%;  border-collapse:collapse;border-color:#93a1a1;border-spacing:0;}
+.tg td{background-color:#fdf6e3;border-color:#93a1a1;border-style:solid;border-width:1px;color:#002b36;
+  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{background-color:#657b83;border-color:#93a1a1;border-style:solid;border-width:1px;color:#fdf6e3;
+  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-lap0{font-size:100%;text-align:center;vertical-align:top}
+.tg .tg-faeq{background-color:#eee8d5;font-size:100%;text-align:center;vertical-align:top}
+
+
+/**
+ * Generic Styling
+*/
+body {
+  background: #eee;
+  min-height: 100vh;
+	box-sizing: border-box;
+	padding-top: 10vh;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 300;
+      text-align: justify;
+  line-height: 1.5;
+  max-width: 50rem;
+  margin: 0 auto;
+  font-size: 112%;
+}
+
