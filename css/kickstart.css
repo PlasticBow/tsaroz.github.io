@@ -217,8 +217,8 @@ font-size:0.9em;
 -----------------------------------*/
 table{width:100%;margin:0 0 10px 0;text-align:left;border-collapse: collapse;}
 	thead, tbody{margin:0;padding:0;}
-	th, td{padding:7px 10px;font-size:0.9em;border-bottom:1px dotted #ddd;text-align:left;}
-	thead th{font-size:0.9em;padding:3px 10px;border-bottom:1px solid #ddd;}
+	th, td{padding:7px 10px;font-size:15px;border-bottom:1px dotted #ddd;text-align:left;}
+	thead th{font-size:15px;padding:3px 10px;border-bottom:1px solid #ddd;}
 	tbody tr.last th,
 	tbody tr.last td{border-bottom:0;}
 
@@ -247,7 +247,7 @@ table.sortable{border:1px solid #ddd;}
 	TABS
 -----------------------------------*/
 ul.tabs{
-margin:10px 0 -1px 0;
+margin:10px 0 1px 0;
 padding:0;
 width:100%;
 border-bottom:1px solid #e5e5e5;
@@ -261,7 +261,7 @@ font-size:0;
 	ul.tabs.right li{margin:0 0 0 -2px;}
 
 	ul.tabs li{
-	font-size:14px;
+	font-size:15px;
 	list-style-type:none;
 	margin:0 -2px 0 0;
 	padding:0;
